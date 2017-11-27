@@ -11,8 +11,8 @@
 /*CLEARFLOATS of the CHILDREN*/
 
 .iit-banner{
-  display: inline-block;
   width: 100%;
+  height: 30%;
 }
 
 .logoutbutton {
@@ -77,23 +77,24 @@
 }
 
 .title-h1 {
-  font-size: 4em;
+  font-size: 4em;/*(64px/16px=4em) Minor 3rd */
 }
 
 .title-h2 {
-  font-size: 2.7em;
+  font-size: 2.7em;/*(43.2px/16px=2.7em) Minor 3rd */
   padding-top: 20px;
 }
 
 .tab-title {
-  font-size: 2em;
+  font-size: 2em;/*(32px/16px=2em) Minor 3rd */
   padding-top: 5px;
+
 }
 
 .academicstab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -101,15 +102,16 @@
 .slifetab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
+  
 }
 
 .financestab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -117,7 +119,7 @@
 .athleticstab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -125,7 +127,7 @@
 .librarytab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -133,7 +135,7 @@
 .researchtab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -141,7 +143,7 @@
 .mystufftab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
 }
@@ -149,16 +151,17 @@
 .trainingandsupporttab {
   background-color: lightgray;
   padding-bottom: 25px;
-  font-size: 160%;
+  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
   border-style: solid;
   margin-bottom: 50px;
+
 }
 
 .welcomepage-footer {
   margin-top: 25px;
   margin-bottom: 25px;
   color: red;
-  font-size: 1.5em;
+  font-size: 1.5em;/*(24/16px=1.5em) Minor 3rd */
 }
 
 /*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*//*WELCOME PAGE CSS*/
@@ -300,11 +303,12 @@ input[type=text], [type=submit]{
   box-sizing: border-box;
   }
 
+
 .button-registration {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1em; /*(33.178px/16px=2.074em) Minor 3rd */
+  font-size: 1em; /*(16px/16px=1em) Minor 3rd */
 }
 
 .regButton {
@@ -330,17 +334,21 @@ input[type=text], [type=submit]{
   transform: translateY(4px);
 }
 
+
 .footer-registration {
   color: red;
   padding: 20px;
   font-size: 1.5em;
 }
 
+
 @media screen and (min-width: 400px){
+
 
 .title-registration {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
+
 
 label {
   font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
@@ -355,6 +363,8 @@ label {
   font-size: 3.583em; /*(57.331px/16px=3.583em) Minor 3rd */
 }
 
+
+
 label {
  font-size: 1.728em; /*(27.648px/16px=1.728em) Minor 3rd */
 }
@@ -363,7 +373,7 @@ label {
 
 /*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
 
-/*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*/
+/*SUCCESS PAGE CSS*/
 
 .success-container {
   max-width: 960px;
@@ -371,38 +381,8 @@ label {
   text-align: center;
 }
 
-.aniCont {
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-}
 
-@-webkit-keyframes example {
-    0% {
-          background-color:red; left:0px; top:0px;
-        }
-    
-    25% {
-          background-color:gray; left:200px; top:0px;
-        }
-    
-    50% {
-          background-color:black; left:200px; top:200px;
-        }
-    
-    75% {
-          background-color:gray; left:0px; top:200px;
-        }
-    
-    100% {
-          background-color:red; left:0px; top:0px;
-        }
-}
-/*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*//*SUCCESS PAGE CSS*/
+
 
 
 
